@@ -1,0 +1,9 @@
+const String launchVc = 'LaunchVc';
+const String loginRoute = 'LoginVc';
+const String otpRoute = 'OtpVc';
+const String homeRoute = 'HomeVc';
+const String usersRoute = 'UsersVc';
+const String chatsRoute = 'ChatListVc';
+const String chatScreenRoute = 'ChatScreenVc';
+const String profileRoute = 'ProfileVc';
+const String userProfileRoute = 'UserProfileVc';
