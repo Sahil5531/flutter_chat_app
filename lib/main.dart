@@ -2,6 +2,8 @@ import 'dart:async';
 import 'dart:io';
 import 'package:demochat/libraries/navigation.dart';
 import 'package:demochat/location_manager/location_manager.dart';
+import 'package:demochat/notification_manager/notification_manager.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:demochat/libraries/custom_classes.dart';
@@ -11,8 +13,6 @@ import 'package:demochat/views/login/login.dart';
 import 'socket_manager/socket_manager.dart';
 import 'local_storage/local_storage_manager.dart';
 import 'views/home/home.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 
 void main() async {
   runApp(const MainApp());
@@ -48,9 +48,7 @@ class _LaunchVcState extends State<LaunchVc> {
   void initState() {
     super.initState();
     setupLocationManager();
-    if (Platform.isIOS) {
-      // registerFirebaseNotification();
-    }
+    registerRemoteNotification();
     // registerPlatformMethod();
     SharedPrefManager.instance.fetchData(StorageKey.isLogin,
         callBack: (isLogin) {
@@ -86,17 +84,17 @@ class _LaunchVcState extends State<LaunchVc> {
     });
   }
 
+  registerRemoteNotification() async {
+    await Firebase.initializeApp();
+    Singleton.instance.notificationManager = NotificationManager();
+    if (Platform.isIOS) {
+      Singleton.instance.notificationManager?.initialize();
+    }
+  }
+
   setupLocationManager() {
     Singleton.instance.locationManager = LocationManager();
     Singleton.instance.locationManager?.startLocationUpdates();
-  }
-
-  registerFirebaseNotification() async {
-    await Firebase.initializeApp();
-    await FirebaseMessaging.instance.setAutoInitEnabled(true);
-    await FirebaseMessaging.instance.requestPermission(provisional: true);
-    final fcmToken = await FirebaseMessaging.instance.getToken();
-    debugPrint("FCMToken $fcmToken");
   }
 
   registerPlatformMethod() {

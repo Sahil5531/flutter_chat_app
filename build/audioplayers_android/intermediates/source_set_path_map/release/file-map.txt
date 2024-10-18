@@ -1,0 +1,14 @@
+xyz.luan.audioplayers.audioplayers_android-jetified-window-java-1.0.0-beta04-0 /Users/tops/.gradle/caches/transforms-3/0fa16b746da7311a9c2703d528039cba/transformed/jetified-window-java-1.0.0-beta04/res
+xyz.luan.audioplayers.audioplayers_android-lifecycle-runtime-2.3.1-1 /Users/tops/.gradle/caches/transforms-3/23d61a80796a6beae4a060994718bb20/transformed/lifecycle-runtime-2.3.1/res
+xyz.luan.audioplayers.audioplayers_android-jetified-core-ktx-1.9.0-2 /Users/tops/.gradle/caches/transforms-3/76cc0fa42080fbe7c6d236de296a6539/transformed/jetified-core-ktx-1.9.0/res
+xyz.luan.audioplayers.audioplayers_android-jetified-window-1.0.0-beta04-3 /Users/tops/.gradle/caches/transforms-3/ae87ff50d2a70d811c5fad096bc22d3a/transformed/jetified-window-1.0.0-beta04/res
+xyz.luan.audioplayers.audioplayers_android-jetified-annotation-experimental-1.3.0-4 /Users/tops/.gradle/caches/transforms-3/c4ad0fc8c4649da766ff1f07a0b55836/transformed/jetified-annotation-experimental-1.3.0/res
+xyz.luan.audioplayers.audioplayers_android-core-1.9.0-5 /Users/tops/.gradle/caches/transforms-3/f13be38e6b8b4ae4c9fe82ed5b052597/transformed/core-1.9.0/res
+xyz.luan.audioplayers.audioplayers_android-main-6 /Users/tops/.pub-cache/hosted/pub.dev/audioplayers_android-5.0.0/android/src/main/res
+xyz.luan.audioplayers.audioplayers_android-release-7 /Users/tops/.pub-cache/hosted/pub.dev/audioplayers_android-5.0.0/android/src/release/res
+xyz.luan.audioplayers.audioplayers_android-pngs-8 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/generated/res/pngs/release
+xyz.luan.audioplayers.audioplayers_android-resValues-9 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/generated/res/resValues/release
+xyz.luan.audioplayers.audioplayers_android-rs-10 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/generated/res/rs/release
+xyz.luan.audioplayers.audioplayers_android-mergeReleaseResources-11 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+xyz.luan.audioplayers.audioplayers_android-mergeReleaseResources-12 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+xyz.luan.audioplayers.audioplayers_android-merged_res-13 /Users/tops/Desktop/GitClones/flutter_chat_app/build/audioplayers_android/intermediates/merged_res/release

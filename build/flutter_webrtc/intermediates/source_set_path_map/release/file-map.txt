@@ -1,0 +1,12 @@
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-java-1.0.0-beta04-0 /Users/tops/.gradle/caches/transforms-3/0fa16b746da7311a9c2703d528039cba/transformed/jetified-window-java-1.0.0-beta04/res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-annotation-experimental-1.1.0-1 /Users/tops/.gradle/caches/transforms-3/1b8713e7652aa588da677fe6c6df5be1/transformed/jetified-annotation-experimental-1.1.0/res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-1.0.0-beta04-2 /Users/tops/.gradle/caches/transforms-3/ae87ff50d2a70d811c5fad096bc22d3a/transformed/jetified-window-1.0.0-beta04/res
+com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-3 /Users/tops/.gradle/caches/transforms-3/aec9eed83b6b9ae8426448b42f76972e/transformed/core-1.6.0/res
+com.cloudwebrtc.webrtc.flutter_webrtc-main-4 /Users/tops/.pub-cache/hosted/pub.dev/flutter_webrtc-0.11.7/android/src/main/res
+com.cloudwebrtc.webrtc.flutter_webrtc-release-5 /Users/tops/.pub-cache/hosted/pub.dev/flutter_webrtc-0.11.7/android/src/release/res
+com.cloudwebrtc.webrtc.flutter_webrtc-pngs-6 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/generated/res/pngs/release
+com.cloudwebrtc.webrtc.flutter_webrtc-resValues-7 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/generated/res/resValues/release
+com.cloudwebrtc.webrtc.flutter_webrtc-rs-8 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/generated/res/rs/release
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-9 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-10 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-11 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_webrtc/intermediates/merged_res/release

@@ -1,0 +1,12 @@
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-window-java-1.0.0-beta04-0 /Users/tops/.gradle/caches/transforms-3/0fa16b746da7311a9c2703d528039cba/transformed/jetified-window-java-1.0.0-beta04/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-annotation-experimental-1.1.0-1 /Users/tops/.gradle/caches/transforms-3/1b8713e7652aa588da677fe6c6df5be1/transformed/jetified-annotation-experimental-1.1.0/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-window-1.0.0-beta04-2 /Users/tops/.gradle/caches/transforms-3/ae87ff50d2a70d811c5fad096bc22d3a/transformed/jetified-window-1.0.0-beta04/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-core-1.6.0-3 /Users/tops/.gradle/caches/transforms-3/aec9eed83b6b9ae8426448b42f76972e/transformed/core-1.6.0/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-main-4 /Users/tops/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.5/android/src/main/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-release-5 /Users/tops/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.5/android/src/release/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-pngs-6 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/generated/res/pngs/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-resValues-7 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/generated/res/resValues/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-rs-8 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/generated/res/rs/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-mergeReleaseResources-9 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-mergeReleaseResources-10 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-merged_res-11 /Users/tops/Desktop/GitClones/flutter_chat_app/build/flutter_image_compress_common/intermediates/merged_res/release

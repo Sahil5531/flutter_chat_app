@@ -1,0 +1,4 @@
+#Thu Oct 17 20:36:37 IST 2024
+base.0=/Users/tops/Desktop/GitClones/flutter_chat_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

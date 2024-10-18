@@ -52,9 +52,6 @@ class LocationManager {
       ).listen(
         (Position position) {
           currentPosition = position;
-          // debugPrint(
-          //     'Location: ${currentPosition?.latitude} ${currentPosition?.longitude}');
-          // debugPrint('${Singleton.instance.sharedLiveLocationData.isNotEmpty}');
           if (Singleton.instance.sharedLiveLocationData.isNotEmpty) {
             shareLiveLocationStreamController.add(true);
           }

@@ -14,42 +14,52 @@ let googleAPIKey = "AIzaSyBaGopDKUIczvSeuFIYyrVxHghc667FDT4"
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         GeneratedPluginRegistrant.register(with: self)
-        registerNotification()
+        
+//        registerNotification()
         loadContent()
-        addObserver()
-        application.registerForRemoteNotifications()
+//        addObserver()
+//        application.registerForRemoteNotifications()
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
     
-    private func addObserver() {
-        NotificationCenter.default.removeObserver(self, name: observer, object: nil)
-        NotificationCenter.default.addObserver(forName: observer, object: nil, queue: nil) { notification in
-            print("Observer Called")
-            self.receivedNotification(data: [:])
-        }
-    }
+//    private func addObserver() {
+//        NotificationCenter.default.removeObserver(self, name: observer, object: nil)
+//        NotificationCenter.default.addObserver(forName: observer, object: nil, queue: nil) { notification in
+//            print("Observer Called")
+//            self.receivedNotification(data: [:])
+//        }
+//    }
     
-    private func receivedNotification(data: [String:Any]) {
-        let methodChannel = FlutterMethodChannel(name: "remote_notification", binaryMessenger: self)
-        methodChannel.invokeMethod("updateDeliveryStatus", arguments: [:]) { result in
-            print("Result: ", result ?? "N/A")
-        }
-    }
+//    private func receivedNotification(data: [String:Any]) {
+//        let methodChannel = FlutterMethodChannel(name: "remote_notification", binaryMessenger: self)
+//        methodChannel.invokeMethod("updateDeliveryStatus", arguments: [:]) { result in
+//            print("Result: ", result ?? "N/A")
+//        }
+//    }
     
-    private func registerNotification() {
-        UNUserNotificationCenter.current().delegate = self
-        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-        UNUserNotificationCenter.current().requestAuthorization(
-            options: authOptions,
-            completionHandler: { _, _ in }
-        )
-        
-    }
+//    private func registerNotification() {
+//        UNUserNotificationCenter.current().delegate = self
+//        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+//        UNUserNotificationCenter.current().requestAuthorization(
+//            options: authOptions,
+//            completionHandler: { _, _ in }
+//        )
+//        
+//    }
     
     private func loadContent() {
         GMSServices.provideAPIKey(googleAPIKey)
     }
 }
+//extension AppDelegate {
+//    override func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
+//        print("didReceive response: \(response)")
+//    }
+//    
+//    override func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        completionHandler([.alert, .badge, .sound])
+//    }
+//}
 extension AppDelegate: FlutterBinaryMessenger {
     func send(onChannel channel: String, message: Data?) {
         
@@ -67,3 +77,4 @@ extension AppDelegate: FlutterBinaryMessenger {
         
     }
 }
+

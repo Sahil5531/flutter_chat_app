@@ -1,0 +1,12 @@
+com.llfbandit.record.record_android-jetified-window-java-1.0.0-beta04-0 /Users/tops/.gradle/caches/transforms-3/0fa16b746da7311a9c2703d528039cba/transformed/jetified-window-java-1.0.0-beta04/res
+com.llfbandit.record.record_android-jetified-annotation-experimental-1.1.0-1 /Users/tops/.gradle/caches/transforms-3/1b8713e7652aa588da677fe6c6df5be1/transformed/jetified-annotation-experimental-1.1.0/res
+com.llfbandit.record.record_android-jetified-window-1.0.0-beta04-2 /Users/tops/.gradle/caches/transforms-3/ae87ff50d2a70d811c5fad096bc22d3a/transformed/jetified-window-1.0.0-beta04/res
+com.llfbandit.record.record_android-core-1.6.0-3 /Users/tops/.gradle/caches/transforms-3/aec9eed83b6b9ae8426448b42f76972e/transformed/core-1.6.0/res
+com.llfbandit.record.record_android-main-4 /Users/tops/.pub-cache/hosted/pub.dev/record_android-1.2.6/android/src/main/res
+com.llfbandit.record.record_android-release-5 /Users/tops/.pub-cache/hosted/pub.dev/record_android-1.2.6/android/src/release/res
+com.llfbandit.record.record_android-pngs-6 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/generated/res/pngs/release
+com.llfbandit.record.record_android-resValues-7 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/generated/res/resValues/release
+com.llfbandit.record.record_android-rs-8 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/generated/res/rs/release
+com.llfbandit.record.record_android-mergeReleaseResources-9 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.llfbandit.record.record_android-mergeReleaseResources-10 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.llfbandit.record.record_android-merged_res-11 /Users/tops/Desktop/GitClones/flutter_chat_app/build/record_android/intermediates/merged_res/release

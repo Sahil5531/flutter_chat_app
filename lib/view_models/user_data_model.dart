@@ -3,7 +3,6 @@ class UserDataModel {
   late String userId;
   late String phoneNumber;
   late String address;
-  late String uuid;
   late int isActive;
   late String userImageUrl;
   late String createdAt;
@@ -14,7 +13,6 @@ class UserDataModel {
     model.phoneNumber = json['phone_number'] ?? '';
     model.fullname = json['full_name'] ?? '';
     model.address = json['address'] ?? '';
-    model.uuid = json['uuid'] ?? '';
     model.isActive = json['isActive'] ?? 0;
     model.userImageUrl = json['userImageUrl'] ?? '';
     model.createdAt = json['created_at'] ?? '';
@@ -29,7 +27,6 @@ class UserDataModel {
       model.phoneNumber = json['phone_number'];
       model.fullname = json['full_name'];
       model.address = json['address'];
-      model.uuid = json['uuid'];
       model.isActive = json['isActive'];
       model.userImageUrl = json['userImageUrl'];
       model.createdAt = json['created_at'];

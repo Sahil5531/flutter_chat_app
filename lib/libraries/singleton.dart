@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:demochat/location_manager/location_manager.dart';
+import 'package:demochat/notification_manager/notification_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:demochat/socket_manager/socket_manager.dart';
@@ -13,7 +14,10 @@ import 'package:video_compress/video_compress.dart';
 class Singleton {
   static final instance = Singleton();
   LocationManager? locationManager;
+  NotificationManager? notificationManager;
   UserDataModel? userDataModel;
+  String fcmToken = '';
+  late bool isUserConnected = false;
   late String authenticationToken = '';
   late BuildContext context;
   late List<ChatMessagesModel> messagesArray = [];

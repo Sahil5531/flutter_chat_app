@@ -115,7 +115,16 @@ class SocketManager {
     Listner.answerOTOAudioCallHandler,
     Listner.rejectOTOCallHandler,
     Listner.endOTOCallHandler,
-    Listner.iceCandidateHandler
+    Listner.iceCandidateHandler,
+    Listner.receivedOTOCallHandler,
+    Listner.busyCallHandler,
+    Listner.noAnswerCallHandler,
+    Listner.offerGroupCallHandler,
+    Listner.joinGroupCallHandler,
+    Listner.handleGroupOffer,
+    Listner.handleGroupAnswer,
+    Listner.leftGroupCallHandler,
+    Listner.iceCandidateGroupHandler,
   ];
 
   initializeSocket() {
@@ -126,7 +135,8 @@ class SocketManager {
     socket.connect();
     socket.onConnect((data) {
       debugPrint('Socket Connected');
-      if (Singleton.instance.userDataModel != null) {
+      if (Singleton.instance.userDataModel != null &&
+          !Singleton.instance.isUserConnected) {
         emitWithEvent(Emitter.connectUser,
             params: {'user_id': Singleton.instance.userDataModel!.userId});
       }
@@ -138,6 +148,7 @@ class SocketManager {
     });
     socket.onDisconnect((data) {
       debugPrint('Socket Disconnected');
+      Singleton.instance.isUserConnected = false;
       for (var element in arrayListners) {
         socket.off(element.name);
       }
@@ -145,6 +156,8 @@ class SocketManager {
   }
 
   disconnectSocket() async {
+    SocketManager.instance.emitWithEvent(Emitter.disconnectUser,
+        params: {'user_id': Singleton.instance.userDataModel?.userId});
     socket.clearListeners();
     socket.disconnect();
     socket.close();
@@ -153,6 +166,7 @@ class SocketManager {
 
   callListners() {
     socket.on(Listner.userConnected.name, (data) {
+      Singleton.instance.isUserConnected = true;
       debugPrint('userConnected');
     });
     socket.on(Listner.userEvent.name, (data) {

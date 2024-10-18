@@ -2,25 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We need your location to show your current position on the map.</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>We need your location to continuously track your position.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>We need your location to track your position in the background and when the app is open.</string>
-    <key>UIBackgroundModes</key>
-    <array>
-      <string>location</string>
-    </array>
-	<key>NSCameraUsageDescription</key>
-	<string>This app need camera permission to record video.</string>
-	<key>NSDocumentsFolderUsageDescription</key>
-	<string>This app need your folder permission to save recordings.</string>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -45,6 +26,21 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app need camera permission to record video.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>This app need your folder permission to save recordings.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to track your position in the background and when the app is open.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to continuously track your position.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show your current position on the map.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs microphone permission to share audio recording.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
@@ -53,6 +49,11 @@
 	<string>This app needs gallary permission to upload your profile image.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

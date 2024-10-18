@@ -1,0 +1,12 @@
+io.flutter.plugins.pathprovider.path_provider_android-jetified-window-java-1.0.0-beta04-0 /Users/tops/.gradle/caches/transforms-3/0fa16b746da7311a9c2703d528039cba/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.pathprovider.path_provider_android-jetified-annotation-experimental-1.1.0-1 /Users/tops/.gradle/caches/transforms-3/1b8713e7652aa588da677fe6c6df5be1/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.pathprovider.path_provider_android-jetified-window-1.0.0-beta04-2 /Users/tops/.gradle/caches/transforms-3/ae87ff50d2a70d811c5fad096bc22d3a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.pathprovider.path_provider_android-core-1.6.0-3 /Users/tops/.gradle/caches/transforms-3/aec9eed83b6b9ae8426448b42f76972e/transformed/core-1.6.0/res
+io.flutter.plugins.pathprovider.path_provider_android-main-4 /Users/tops/.pub-cache/hosted/pub.dev/path_provider_android-2.2.10/android/src/main/res
+io.flutter.plugins.pathprovider.path_provider_android-release-5 /Users/tops/.pub-cache/hosted/pub.dev/path_provider_android-2.2.10/android/src/release/res
+io.flutter.plugins.pathprovider.path_provider_android-pngs-6 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/generated/res/pngs/release
+io.flutter.plugins.pathprovider.path_provider_android-resValues-7 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/generated/res/resValues/release
+io.flutter.plugins.pathprovider.path_provider_android-rs-8 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/generated/res/rs/release
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-9 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-10 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.pathprovider.path_provider_android-merged_res-11 /Users/tops/Desktop/GitClones/flutter_chat_app/build/path_provider_android/intermediates/merged_res/release

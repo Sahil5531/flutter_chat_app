@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyClaq--QRTgGSd55-v-UT0dgI-fZ58CxFQ</string>
+	<string>AIzaSyBydYK15D_75PSM8hOPZN7RzKWhgfOohZs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>849668897244</string>
+	<string>543548540280</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.top.notificationservicedemo</string>
+	<string>com.app.spherio-ojmar</string>
 	<key>PROJECT_ID</key>
-	<string>notificationdemo-3b766</string>
+	<string>demochat-5031f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>notificationdemo-3b766.appspot.com</string>
+	<string>demochat-5031f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:849668897244:ios:86fb5ebcb4f21fbbf0b719</string>
+	<string>1:543548540280:ios:d4d31d61de03aa674eb48d</string>
 </dict>
 </plist>

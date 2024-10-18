@@ -32,9 +32,18 @@ class _HomeVcState extends State<HomeVc> with WidgetsBindingObserver {
     getRequestCount();
     subscription = homeStreamController.stream.listen((event) {
       getRequestCount();
+    }, onError: (e) {
+      debugPrint('Error: $e');
+    }, onDone: () {
+      debugPrint('Done');
     });
-    SocketManager.instance.emitWithEvent(Emitter.connectUser,
-        params: {'user_id': Singleton.instance.userDataModel?.userId ?? ''});
+    Timer(const Duration(seconds: 1), () {
+      if (!Singleton.instance.isUserConnected) {
+        SocketManager.instance.emitWithEvent(Emitter.connectUser, params: {
+          'user_id': Singleton.instance.userDataModel?.userId ?? ''
+        });
+      }
+    });
     changeUserStatus('1');
   }
 
@@ -62,9 +71,11 @@ class _HomeVcState extends State<HomeVc> with WidgetsBindingObserver {
         break;
       case AppLifecycleState.detached:
         debugPrint("DETACHED");
+        SocketManager.instance.disconnectSocket();
         changeUserStatus('0');
         break;
       case AppLifecycleState.hidden:
+        debugPrint("HIDDEN");
         break;
     }
   }

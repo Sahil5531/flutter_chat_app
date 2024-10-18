@@ -4,6 +4,7 @@ import 'package:demochat/components/custom_alert.dart';
 import 'package:demochat/constants/screen_dimention.dart';
 import 'package:demochat/libraries/custom_classes.dart';
 import 'package:demochat/view_models/chat_list_model.dart';
+import 'package:demochat/views/users_list_popup/user_list_popup.dart';
 import 'package:flutter/material.dart';
 
 import '../../view_models/user_data_model.dart';
@@ -41,6 +42,15 @@ class _GroupInfoState extends State<GroupInfo> {
         ),
         fullscreenDialog: true,
       ),
+    );
+  }
+
+  void _showUserListDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return UserListPopup(userList: widget.users);
+      },
     );
   }
 
@@ -102,6 +112,7 @@ class _GroupInfoState extends State<GroupInfo> {
               ],
             ),
             const SizedBox(height: 20),
+            // Users List
             customListTile(
               ListTile(
                 leading: CircleAvatar(
@@ -119,7 +130,9 @@ class _GroupInfoState extends State<GroupInfo> {
                   Icons.arrow_forward_ios,
                   color: Colors.grey.withOpacity(0.5),
                 ),
-                onTap: () {},
+                onTap: () {
+                  _showUserListDialog(context);
+                },
               ),
             ),
             // Media, Links, Docs

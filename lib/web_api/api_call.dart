@@ -29,7 +29,7 @@ class APICall {
     final Map<String, dynamic> params = {
       'phone_number': number,
       'otp': otp,
-      'uuid': ''
+      'fcm_token': Singleton.instance.fcmToken
     };
     APIRequest.instance.sendPostRequest(context, 'verify_otp', params,
         successBlock: (jsonData) {
