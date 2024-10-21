@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.demo_chat_app-mergeReleaseResources-36:/values-ky/values-ky.xml",
+            "outputFile": "com.example.demo_chat_app-mergeReleaseResources-37:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/tops/.gradle/caches/transforms-3/bf08e9e9c7a0cd9daf2b90a75159330d/transformed/jetified-media3-exoplayer-1.4.0/res/values-ky/values-ky.xml",

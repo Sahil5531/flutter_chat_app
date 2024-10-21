@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.demo_chat_app-mergeReleaseResources-36:/values-et/values-et.xml",
+            "outputFile": "com.example.demo_chat_app-mergeReleaseResources-37:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "/Users/tops/.gradle/caches/transforms-3/4af6c36af56f9c774a3812342f51d36f/transformed/jetified-play-services-base-18.3.0/res/values-et/values.xml",
