@@ -3,7 +3,8 @@ plugins {
     id "kotlin-android"
     id "kotlin-parcelize" // Add this line if you use Parcelize
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
-    id "dev.flutter.flutter-gradle-plugin"    
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
 }
 
 
@@ -79,5 +80,3 @@ dependencies {
 flutter {
     source = "../.."
 }
-
-apply plugin: 'com.google.gms.google-services'

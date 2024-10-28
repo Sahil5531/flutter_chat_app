@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 import 'package:demochat/libraries/navigation.dart';
 import 'package:demochat/location_manager/location_manager.dart';
 import 'package:demochat/notification_manager/notification_manager.dart';
