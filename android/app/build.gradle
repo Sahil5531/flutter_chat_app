@@ -3,8 +3,9 @@ plugins {
     id "kotlin-android"
     id "kotlin-parcelize" // Add this line if you use Parcelize
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
-    id "dev.flutter.flutter-gradle-plugin"
+    id "dev.flutter.flutter-gradle-plugin"    
 }
+
 
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file("local.properties")
@@ -78,3 +79,5 @@ dependencies {
 flutter {
     source = "../.."
 }
+
+apply plugin: 'com.google.gms.google-services'
