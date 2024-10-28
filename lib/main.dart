@@ -87,9 +87,7 @@ class _LaunchVcState extends State<LaunchVc> {
   registerRemoteNotification() async {
     await Firebase.initializeApp();
     Singleton.instance.notificationManager = NotificationManager();
-    if (Platform.isIOS) {
-      Singleton.instance.notificationManager?.initialize();
-    }
+    Singleton.instance.notificationManager?.initialize();
   }
 
   setupLocationManager() {

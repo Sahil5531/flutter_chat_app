@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 class NotificationManager {
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
 
-  dynamic initialize() {
-    registerFirebaseNotification();
+  dynamic initialize() async {
+    await registerFirebaseNotification();
     onMessage();
-    onBackgroudMessage();
+    // onBackgroudMessage();
     onTerminatedApp();
     onMessageOpenedApp();
   }
@@ -22,7 +22,7 @@ class NotificationManager {
       sound: true,
     );
     await _firebaseMessaging.getAPNSToken().then((value) {
-      debugPrint("APNSToken $value");
+      // debugPrint("APNSToken $value");
     });
     await _firebaseMessaging.getToken().then((value) {
       debugPrint("FCMToken $value");

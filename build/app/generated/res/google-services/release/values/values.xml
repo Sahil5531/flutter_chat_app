@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">543548540280</string>
-    <string name="google_api_key" translatable="false">AIzaSyBljH69Rp30hcPOtkmqPN9BcNGCDKFoBUU</string>
-    <string name="google_app_id" translatable="false">1:543548540280:android:b49e0c1dd0d871924eb48d</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBljH69Rp30hcPOtkmqPN9BcNGCDKFoBUU</string>
-    <string name="google_storage_bucket" translatable="false">demochat-5031f.appspot.com</string>
-    <string name="project_id" translatable="false">demochat-5031f</string>
-</resources>
